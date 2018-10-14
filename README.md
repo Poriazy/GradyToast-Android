@@ -95,7 +95,7 @@ myCustomGrady
 	.show();
 ```
 
-## ℹℹ Info & Simple usage:
+## ℹ Info & Simple usage:
 
 ``` java
 GradyToast simpleGrady = new GradyToast(yourContext);
