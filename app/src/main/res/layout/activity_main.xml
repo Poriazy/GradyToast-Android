@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/buttons_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <Button
+        android:id="@+id/btn_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_primary"
+        />
+
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_success"
+        />
+
+
+    <Button
+        android:id="@+id/btn_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_error"
+        />
+
+    <Button
+        android:id="@+id/btn_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_warning"
+        />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_info"
+        />
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_light"
+        />
+
+    <Button
+        android:id="@+id/btn_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_dark"
+        />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="?attr/selectableItemBackground"
+        android:layout_margin="3dp"
+        android:text="@string/btn_custom"
+        />
+
+</LinearLayout>

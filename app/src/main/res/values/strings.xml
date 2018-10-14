@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SampleGrady</string>
+
+
+    <!-- Toast Buttons -->
+    <string name="btn_primary">Primary Grady</string>
+    <string name="btn_success">Success Grady</string>
+    <string name="btn_error">Error Grady</string>
+    <string name="btn_warning">Warning Grady</string>
+    <string name="btn_info">Info Grady</string>
+    <string name="btn_light">Light Grady</string>
+    <string name="btn_dark">Dark Grady</string>
+    <string name="btn_custom">Custom Grady</string>
+    <!-- Toast Buttons -->
+
+    <!-- Toast Text -->
+    <string name="message_primary">This is Grady! - Primary</string>
+    <string name="message_success">This is Grady! - Success</string>
+    <string name="message_error">This is Grady! - Error</string>
+    <string name="message_warning">This is Grady! - Warning</string>
+    <string name="message_info">This is Grady! - Info</string>
+    <string name="message_light">This is Grady! - Light</string>
+    <string name="message_dark">This is Grady! - Dark</string>
+    <string name="message_custom">This is Grady! - Custom</string>
+    <!-- Toast Text -->
+
+    
+    
+</resources>
