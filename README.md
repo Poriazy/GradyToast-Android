@@ -62,7 +62,7 @@ gradyToast.with(yourContext);
 
 ## 🎨 Types
 
-You Can use GradyToast with these types:
+You Can change GradyToast appearance with these types:
 
 
 ``` java
@@ -78,6 +78,14 @@ public enum GradyType {
     CUSTOM,
 }
 
+```
+Sample: 
+
+``` java
+gradyToast
+	.with(yourContext)
+	.setText("HelloWorld!")
+	.setType(GradyType.SUCCESS);
 ```
 
 You can also create your custom Toasts with the `.setType(GradyType.CUSTOM)`,method:
