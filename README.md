@@ -96,6 +96,7 @@ myCustomGrady
 	.with(yourContext)
 	.setText("Your Toast Message")
 	.setDuration(GradyDuration.LONG)
+	.setTextSize(24)
 	.setType(GradyType.CUSTOM)
 	.setTextColor("#bdc3c7")
 	.setCustomColors("#FF0099", "#493240", "#000000" )
